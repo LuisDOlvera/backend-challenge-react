@@ -28,6 +28,15 @@ const cardPostSchema = new mongoose.Schema({
     maxlength: 200,
     required: true,
   },
+  numReactions: {
+    type: String,
+  },
+  numComments: {
+    type: String,
+  },
+  timeRead: {
+    type: String,
+  },
 });
 
 //Exportamos el modelo
